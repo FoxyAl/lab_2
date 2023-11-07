@@ -1,0 +1,26 @@
+
+TYPE
+	DoorStates : 
+		(
+		SM_INIT,
+		SM_UNKNOWN,
+		SM_CLOSE,
+		SM_NEG,
+		SM_ACC_NEG,
+		SM_DEC_NEG,
+		SM_OPEN,
+		SM_POS,
+		SM_ACC_POS,
+		SM_DEC_POS
+		);
+	driveCommands : 
+		(
+		CMD_SWITCHED_ON := 7,
+		CMD_DISABLE_VOLTAGE := 0,
+		CMD_ENABLED := 15,
+		CMD_SHUTDOWN := 6,
+		STATE_READY := 33,
+		STATE_DISABLED := 64,
+		STATE_SWITCHED_ON := 35
+		);
+END_TYPE
